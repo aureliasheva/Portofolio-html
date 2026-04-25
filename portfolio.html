@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AURELIA Mercer — Portfolio</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Mobile Menu -->
+<div class="mobile-menu" id="mobileMenu">
+  
+  <button class="mobile-close" onclick="closeMobileMenu()">✕</button>
+  <a href="#home" onclick="closeMobileMenu()">Home</a>
+  <a href="#services" onclick="closeMobileMenu()">Services</a>
+  <a href="#skill" onclick="closeMobileMenu()">Skills</a>
+  <a href="#work" onclick="closeMobileMenu()">Portfolio</a>
+  <a href="#contactus" onclick="closeMobileMenu()">Contact</a>
+</div>
+
+<!-- NAV -->
+<nav>
+  <a href="#home" class="logo">Aurelia<span>.</span></a>
+  <ul class="nav-links">
+    <li><a href="#home">Home</a></li>
+    <li><a href="#services">Services</a></li>
+    <li><a href="#skill">Skills</a></li>
+    <li><a href="#work">Portfolio</a></li>
+    <li><a href="#contactus">Contact</a></li>
+  </ul>
+  <a href="#contactus" class="nav-cta">Contact Now</a>
+  <button class="hamburger" onclick="openMobileMenu()" aria-label="Open menu">
+    <span></span><span></span><span></span>
+  </button>
+</nav>
+
+<!-- HERO -->
+<section id="home">
+  <div class="hero-blob hero-blob-1"></div>
+  <div class="hero-blob hero-blob-2"></div>
+  <div class="hero-inner">
+    <div class="hero-content">
+      <div class="hero-tag">Hello, I'm Aurelia 👋</div>
+      <h1 class="hero-title">Aurelia<br><em>Sheva</em><br>Denathrya</h1>
+      <p class="hero-desc">I'm a student at UNIMMA majoring in informatics S1 and have a passion for swimming, running, and reading novels. In my free time, I enjoy watching movies, sharing laughs, and exploring new experiences.</p>
+      <div class="hero-btns">
+        <a href="#contactus" class="btn-primary">Let's Talk →</a>
+        <a href="#work" class="btn-outline">View Portfolio</a>
+      </div>
+    </div>
+    <div class="hero-image-wrap">
+      <div class="hero-card">
+        <div class="hero-card-img">
+          <div class="hero-card-bg">
+          </div>
+          <div class="hero-avatar">
+            <img src="foto.png" alt="Aurelia Avatar" style="width:80%; opacity:0.9;">
+          </div>
+        </div>
+      </div>
+      </div>
+      
+    </div>
+  </div>
+</section>
+
+<!-- SERVICES -->
+<section id="services">
+  <div class="container">
+    <div class="section-tag">Services</div>
+    <div class="section-title">Services I Offer</div>
+    <div class="services-grid">
+      <div class="service-card fade-in">
+        <div class="service-num">01</div>
+        <div class="service-icon">🎨</div>
+        <h3>Web Design</h3>
+        <p>Creating stunning, modern interfaces that combine aesthetics with usability for an exceptional user experience.</p>
+      </div>
+      <div class="service-card fade-in">
+        <div class="service-num">02</div>
+        <div class="service-icon">⚡</div>
+        <h3>Development</h3>
+        <p>Building fast, scalable web applications using the latest technologies and best coding practices.</p>
+      </div>
+      <div class="service-card fade-in">
+        <div class="service-num">03</div>
+        <div class="service-icon">📈</div>
+        <h3>UI/UX Design</h3>
+        <p>Creating intuitive and engaging user experiences that enhance usability and satisfaction.</p>
+      </div>
+      <div class="service-card fade-in">
+        <div class="service-num">04</div>
+        <div class="service-icon">📱</div>
+        <h3>Mobile Apps</h3>
+        <p>Developing cross-platform mobile applications that deliver native performance on iOS and Android.</p>
+      </div>
+      <div class="service-card fade-in">
+        <div class="service-num">05</div>
+        <div class="service-icon">🛍️</div>
+        <h3>E-Commerce</h3>
+        <p>Building high-converting online stores with seamless checkout experiences and powerful back-end systems.</p>
+      </div>
+      <div class="service-card fade-in">
+        <div class="service-num">06</div>
+        <div class="service-icon">🔒</div>
+        <h3>Maintenance</h3>
+        <p>Ongoing support, security monitoring, and performance optimization to keep your digital presence robust.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SKILLS & EXPERIENCE -->
+<section id="skill">
+  <div class="container">
+    <div class="section-tag">Experience</div>
+    <div class="section-title">Skills and<br>Experience</div>
+    <div class="skills-layout">
+      <div>
+        <p class="skills-desc">I design and develop services for customers of all sizes, specializing in creating stylish, modern websites, web services and online stores.</p>
+        <div class="skill-bars" id="skillBars">
+          <div class="skill-item">
+            <label>HTML / CSS <span>75%</span></label>
+            <div class="skill-track"><div class="skill-fill" data-width="75" style="width:0%"></div></div>
+          </div>
+          <div class="skill-item">
+            <label>React JS <span>68%</span></label>
+            <div class="skill-track"><div class="skill-fill" data-width="68" style="width:0%"></div></div>
+          </div>
+          <div class="skill-item">
+            <label>Node.js <span>40%</span></label>
+            <div class="skill-track"><div class="skill-fill" data-width="40" style="width:0%"></div></div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <h3 style="font-family:'Playfair Display',serif;font-size:1.5rem;margin-bottom:24px;font-weight:900;">Experience</h3>
+        <div class="experience-list">
+          <div class="exp-item">
+            <div class="exp-date">2022 – 2025</div>
+            <div class="exp-body">
+              <h4>SMK KESDAM IV/DIPONEGORO</h4>
+              <span>Student</span>
+            </div>
+          </div>
+          <div class="exp-item">
+            <div class="exp-date">2023 – 2025</div>
+            <div class="exp-body">
+              <h4>PRAKTEK KERJA LAPANGAN</h4>
+              <span>RST MAGELANG</span>
+            </div>
+          </div>
+          <div class="exp-item">
+            <div class="exp-date">2025 – Now</div>
+            <div class="exp-body">
+              <h4>UNIVERSITAS MUHAMMADIYAH MAGELANG</h4>
+              <span>Student S1 TEKNIK INFORMATIKA</span>
+            </div>
+          </div>
+          <div 
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PORTFOLIO -->
+<section id="work">
+  <div class="container">
+    <div class="section-tag">Portfolio</div>
+    <div class="section-title">Latest Projects</div>
+    <div class="portfolio-grid">
+      <div class="portfolio-item">
+        <div class="portfolio-item-bg p1">
+          <span class="portfolio-placeholder-icon"></span>
+        </div>
+        <div class="portfolio-overlay">
+          <div class="portfolio-info">
+            <h4>Website portfolio</h4>
+            <span>html</span>
+          </div>
+        </div>
+      </div>
+      <div class="portfolio-item">
+        <div class="portfolio-item-bg p2">
+          <span class="portfolio-placeholder-icon">💼</span>
+        </div>
+        <div class="portfolio-overlay">
+          <div class="portfolio-info">
+            <h4>Coming soon</h4>
+            
+          </div>
+        </div>
+      </div>
+      <div class="portfolio-item">
+        <div class="portfolio-item-bg p3">
+          <span class="portfolio-placeholder-icon">🛍️</span>
+        </div>
+        <div class="portfolio-overlay">
+          <div class="portfolio-info">
+            <h4>Coming soon</h4>
+            
+          </div>
+        </div>
+      </div>
+      
+      
+</section>
+
+<!-- CONTACT -->
+<section id="contactus">
+  <div class="container">
+    <div class="section-tag">Contact</div>
+    <div class="section-title">Let's Discuss Project</div>
+    <div class="contact-layout">
+      <div class="contact-info">
+        <p>Our friendly team would love to hear from you. Let's work together to build something amazing.</p>
+        <ul class="contact-detail-list">
+          <li>
+            <div class="icon-user">👤</div>
+            <div>
+              <h5>Linkedin</h5>
+              <p>Aurelia Sheva Denathrya</p>
+            </div>
+          </li>
+          <li>
+            <div class="contact-icon">📧</div>
+            <div>
+              <h5>Mail</h5>
+              <p>aurelarl2024@gmail.com</p>
+            </div>
+          </li>
+          <li>
+            <div class="contact-icon">📍</div>
+            <div>
+              <h5>Address
+
+          </h5>
+              <p>Argajaya Jl. Sumbing No.153, Kalinegoro, Kabupaten Magelang, Jawa Tengah</p>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <div>
+        <div class="contact-form" id="contactForm">
+          <div class="form-row">
+            <div class="form-group">
+              <label>First Name</label>
+              <input type="text" placeholder="Your name">
+            </div>
+            <div class="form-group">
+              <label>Email</label>
+              <input type="email" placeholder="your@email.com">
+            </div>
+          </div>
+          <div class="form-group">
+            <label>Subject</label>
+            <input type="text" placeholder="Project discussion">
+          </div>
+          <div class="form-group">
+            <label>Message</label>
+            <textarea placeholder="Tell me about your project..."></textarea>
+          </div>
+          <div class="form-success" id="formSuccess">✅ Message sent successfully! I'll be in touch soon.</div>
+          <button class="form-submit" onclick="submitForm()">Send Message →</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <p>© 2026 Aurelia Sheva. All rights reserved.</p>
+  <ul class="footer-links">
+    <li><a href="#home">Home</a></li>
+    <li><a href="#services">Services</a></li>
+    <li><a href="#work">Portfolio</a></li>
+    <li><a href="#contactus">Contact</a></li>
+  </ul>
+</footer>
+
+<script>
+  // Mobile menu
+  function openMobileMenu() {
+    document.getElementById('mobileMenu').classList.add('open');
+  }
+  function closeMobileMenu() {
+    document.getElementById('mobileMenu').classList.remove('open');
+  }
+
+  // Intersection Observer for fade-in
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(e => {
+      if (e.isIntersecting) {
+        e.target.classList.add('visible');
+      }
+    });
+  }, { threshold: 0.15 });
+
+  document.querySelectorAll('.fade-in').forEach(el => observer.observe(el));
+
+  // Skill bar animation
+  const skillObserver = new IntersectionObserver((entries) => {
+    entries.forEach(e => {
+      if (e.isIntersecting) {
+        document.querySelectorAll('.skill-fill').forEach(fill => {
+          const w = fill.getAttribute('data-width');
+          fill.style.width = w + '%';
+        });
+        skillObserver.disconnect();
+      }
+    });
+  }, { threshold: 0.3 });
+
+  const skillSection = document.getElementById('skillBars');
+  if (skillSection) skillObserver.observe(skillSection);
+
+  // Form submit
+  function submitForm() {
+    const inputs = document.querySelectorAll('#contactForm input, #contactForm textarea');
+    let valid = true;
+    inputs.forEach(i => { if (!i.value.trim()) valid = false; });
+    if (!valid) {
+      inputs.forEach(i => {
+        if (!i.value.trim()) {
+          i.style.borderColor = '#ef4444';
+          setTimeout(() => i.style.borderColor = '', 2000);
+        }
+      });
+      return;
+    }
+    const success = document.getElementById('formSuccess');
+    success.style.display = 'block';
+    inputs.forEach(i => i.value = '');
+    setTimeout(() => success.style.display = 'none', 5000);
+  }
+
+  // Smooth active nav
+  const sections = document.querySelectorAll('section[id]');
+  const navLinks = document.querySelectorAll('.nav-links a');
+
+  window.addEventListener('scroll', () => {
+    let current = '';
+    sections.forEach(s => {
+      if (window.scrollY >= s.offsetTop - 120) current = s.getAttribute('id');
+    });
+    navLinks.forEach(a => {
+      a.style.color = a.getAttribute('href') === '#' + current ? 'var(--text)' : '';
+    });
+  });
+</script>
+</body>
+</html>
