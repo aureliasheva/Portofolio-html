@@ -396,7 +396,7 @@
     cursor: default;
   }
 
-  .service-card:hover { background: #1c1c28; }
+  .service-card:hover { background: #24222e; }
 
   .service-num {
     font-family: 'Playfair Display', serif;
@@ -586,7 +586,7 @@
   }
 
   /* Placeholder colors for portfolio items */
-  .p1 {background-image: url(project/ss.png);
+  .p1 {background-image: url(foto/ss.png);
     background-size: 99% 100%;
     background-position: center;
     background-repeat: no-repeat;
