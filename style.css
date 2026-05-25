@@ -13,7 +13,7 @@
   *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
   html { scroll-behavior: smooth; }
-
+/* ─── bagian tulisan body ─── */
   body {
     background: var(--bg);
     color: var(--text);
@@ -23,7 +23,7 @@
     overflow-x: hidden;
   }
 
-  /* ─── NOISE OVERLAY ─── */
+  /* ─── BACKGROUND IMG ─── */
   body::before {
     content: '';
     position: fixed;
@@ -33,7 +33,7 @@
     z-index: 9999;
   }
 
-  /* ─── NAV ─── */
+  /* ─── NAVBAR ─── */
   nav {
     position: fixed;
     top: 0; left: 0; right: 0;
